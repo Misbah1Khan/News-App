@@ -1,0 +1,36 @@
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;  /* Ensure the image covers the specified height while maintaining aspect ratio */
+}
+
+.card-body {
+    max-height: 23rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Limit the number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container{
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    
+}
+.navbar{
+    background-color: rgb(158, 160, 163)!important 
+}
+
+footer{
+   color: lightslategrey;
+
+}
